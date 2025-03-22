@@ -1,0 +1,40 @@
+.connect-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    background: #ffcc00;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.connect-btn:hover {
+    background: #ffdb4d;
+}
+.social-icons {
+    display: none;
+    margin-top: 15px;
+}
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-line {
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, #ffcc00, #f3e5ff);
+    margin: 10px auto;
+    border-radius: 5px;
+}

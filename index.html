@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">therkumar</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="https://forms.gle/zMmS5NzhWTGg2AVh9" target="_blank">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h3 class="highlight">SOFTWARE+CHEMICAL ENGINEER</h3>
+            <h1>Hey...</h1>
+            <h1 class="lowercase">how u doin??</h1>
+            <p class="welcome">Welcome to my website!!!</p>
+            <p class="bold">This is Rahul Kumar.</p>
+            <p class="intro">I'm a final year student at NIT Warangal.<br>
+                I am passionate about data and currently building a strong<br>
+                foundation in problem-solving and analytical skills.<br>
+                Loving the learning and growing journey.<br>
+                Let's connect and explore possibilities together!</p>
+            <button class="connect-btn" onclick="toggleIcons()">Connect with Me</button>
+            <div class="social-icons" id="social-icons">
+                <a href="#" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+                <a href="#" target="_blank"><img src="fb.png" alt="Facebook"></a>
+                <a href="#" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="#" target="_blank"><img src="github.png" alt="GitHub"></a>
+                <a href="#" target="_blank"><img src="gmail.png" alt="Gmail"></a>
+            </div>
+
+        </div>
+        <div class="hero-image">
+            <img src="rahul.jpeg" alt="Rahul Kumar">
+        </div>
+    </section>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: url('white-background.jpg') no-repeat center center/cover;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            padding: 10px 15px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background: rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100vh;
+            padding: 80px;
+            background: linear-gradient(to right, #fff7d1, #f3e5ff);
+        }
+
+        .hero-text {
+            max-width: 50%;
+        }
+
+        .hero-text .highlight {
+            color: violet;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .hero-text h1 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .hero-text .lowercase {
+            text-transform: lowercase;
+        }
+
+        .hero-text .welcome {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .hero-text .bold {
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        .hero-text .intro {
+            font-size: 18px;
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        .hero-image img {
+            width: 450px;
+            height: 450px;
+            border-radius: 80%;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+        }
+    </style>
+
+    <script src="script.js"></script>
+
+    <footer class="footer">
+        <div class="footer-line"></div>
+        <p>Copyright © All rights reserved. Rahul Kumar</p>
+    </footer>
+
+</body>
+
+</html>
